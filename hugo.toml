@@ -1,4 +1,4 @@
-baseURL = 'https://nuna.moe/'
+baseURL = 'https://nuna.moe'
 theme = 'flashdrive'
 defaultContentLanguage = 'en'
 
