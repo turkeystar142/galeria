@@ -1,4 +1,18 @@
 baseURL = 'https://nuna.moe/'
-languageCode = 'en-us'
-title = 'Nuna.Moe'
-description = "A memory box."
+defaultContentLanguage = 'en'
+
+[languages.en]
+  languageCode = 'en-us'
+  languageName = 'English'
+  title = 'FlashDrive'
+  description = "A memory box."
+  weight = 1
+  contentDir = 'content/en'
+
+[languages.es]
+  languageCode = 'es'
+  languageName = 'Español'
+  title = 'FlashDrive'
+  description = "Caja de recuerdos."
+  weight = 2
+  contentDir = 'content/es'
