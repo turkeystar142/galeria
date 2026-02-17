@@ -1,0 +1,9 @@
+# English translations
+
+# Navigation
+- id: back_to_home
+  translation: Back to Memory Box
+
+# Filter labels
+- id: filter_category
+  translation: "Category:"

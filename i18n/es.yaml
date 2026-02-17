@@ -1,0 +1,9 @@
+# Spanish translations
+
+# Navigation
+- id: back_to_home
+  translation: Volver a Caja de Recuerdos
+
+# Filter labels
+- id: filter_category
+  translation: "Categoría:"
