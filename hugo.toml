@@ -1,4 +1,5 @@
 baseURL = 'https://nuna.moe/'
+theme = 'flashdrive'
 defaultContentLanguage = 'en'
 
 [languages.en]

@@ -1,8 +1,7 @@
 ---
-title: "{{ replace .File.ContentBaseName "-" " " | title }}"
-date: {{ .Date }}
+title: "Acogiendo a Lucky el Perro"
+date: 2026-02-16
 draft: false
-description: "Acogiendo a Lucky el Perro"
 tags: [dogs]
 ---
 
