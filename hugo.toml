@@ -1,3 +1,14 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://nuna.moe/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Nuna.Moe'
+[params]
+  description = "A tribute to the best companions in the world."
+  animateStyle = "animate-fade-up" # Animation style for content
+
+[[params.navlinks]]
+  name = "About"
+  url = "/about/"
+
+[[params.navlinks]]
+  name = "Photos"
+  url = "/photos/"
