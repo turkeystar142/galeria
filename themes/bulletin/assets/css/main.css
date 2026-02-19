@@ -28,12 +28,28 @@ header {
 }
 
 /* Nav */
+.header__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 nav ul {
   list-style: none;
   padding: 0;
   margin: 0;
   display: flex;
   gap: 1.5rem;
+}
+
+/* Language switcher */
+.lang-switcher {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.lang-switcher__current {
+  font-weight: bold;
 }
 
 footer {
