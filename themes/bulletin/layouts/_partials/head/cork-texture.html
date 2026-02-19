@@ -1,0 +1,9 @@
+{{- with resources.Get "images/cork-texture.jpg" }}
+  {{- if hugo.IsDevelopment }}
+    <style>.corkboard { background-image: url('{{ .RelPermalink }}'); }</style>
+  {{- else }}
+    {{- with . | fingerprint }}
+      <style>.corkboard { background-image: url('{{ .RelPermalink }}'); }</style>
+    {{- end }}
+  {{- end }}
+{{- end }}

@@ -1,0 +1,15 @@
+{{ define "main" }}
+  {{ .Content }}
+  <div class="corkboard">
+    {{ range $i, $page := site.RegularPages }}
+      {{ with $page.Resources.ByType "image" }}
+        {{ with (index . 0).Fill "300x300" }}
+          <a href="{{ $page.RelPermalink }}" class="polaroid polaroid--r{{ mod $i 5 }}">
+            <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="{{ $page.Title }}" loading="lazy">
+            <span class="polaroid__caption">{{ $page.Title }}</span>
+          </a>
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  </div>
+{{ end }}

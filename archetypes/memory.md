@@ -7,7 +7,7 @@ country: []
 tags: []
 ---
 
-![alt text](path/to/image))
+![alt text](image.jpg)
 
 Brief description of the memory.
 

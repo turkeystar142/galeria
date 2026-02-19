@@ -1,0 +1,5 @@
+{{ with .Page.Resources.Get .Destination }}
+  {{ with .Resize "800x" }}
+    <img src="{{ .RelPermalink }}" alt="{{ $.Text }}" width="{{ .Width }}" height="{{ .Height }}" loading="lazy">
+  {{ end }}
+{{ end }}

@@ -1,19 +1,49 @@
 baseURL = 'https://nuna.moe'
-theme = 'flashdrive'
+theme = 'bulletin'
 defaultContentLanguage = 'en'
 
 [languages.en]
   languageCode = 'en-us'
   languageName = 'English'
-  title = 'FlashDrive'
-  description = "A memory box."
+  title = 'My Bulletin Board'
+  description = "A memory board."
   weight = 1
   contentDir = 'content/en'
+
+  [[languages.en.menus.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+
+  [[languages.en.menus.main]]
+    name = 'About'
+    pageRef = '/about/'
+    weight = 20
+
+  [[languages.en.menus.main]]
+    name = 'Tags'
+    pageRef = '/tags/'
+    weight = 30
 
 [languages.es]
   languageCode = 'es'
   languageName = 'Español'
-  title = 'FlashDrive'
-  description = "Caja de recuerdos."
+  title = 'Mi Tablero'
+  description = "Mural de recuerdos."
   weight = 2
   contentDir = 'content/es'
+
+  [[languages.es.menus.main]]
+    name = 'Inicio'
+    pageRef = '/'
+    weight = 10
+
+  [[languages.es.menus.main]]
+    name = 'Acerca de'
+    pageRef = '/about/'
+    weight = 20
+
+  [[languages.es.menus.main]]
+    name = 'Etiquetas'
+    pageRef = '/tags/'
+    weight = 30

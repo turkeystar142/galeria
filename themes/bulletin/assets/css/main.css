@@ -1,0 +1,109 @@
+:root {
+  --color-bg: #ffffff;
+  --color-text: #222222;
+  --color-cork-base: #c2975a;
+  --color-cork-detail: #b58c53;
+  --color-link: #00e;
+  --color-polaroid: #fffef8;
+  --color-polaroid-caption: #444;
+  --color-primary: #94ff94;
+  --color-secondary: #e62e73;
+  --color-tertiary: #b875eb;
+}
+
+body {
+  color: #222;
+  font-family: sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 1rem;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  border-bottom: 1px solid #222;
+  margin-bottom: 1rem;
+}
+
+footer {
+  border-top: 1px solid #222;
+  margin-top: 1rem;
+  padding: 1rem 0;
+}
+
+a {
+  color: #00e;
+  text-decoration: none;
+}
+
+/* Corkboard */
+.corkboard {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 2.5rem;
+  padding: 2.5rem;
+  background-color: var(--color-cork-base);
+  background-repeat: repeat;
+  background-size: 400px 400px;
+  border-radius: 16px;
+  min-height: 50vh;
+}
+
+/* Polaroid card */
+.polaroid {
+  background: var(--color-polaroid);
+  padding: 0.6rem 0.6rem 2.8rem;
+  box-shadow: 2px 3px 10px rgba(0,0,0,0.25);
+  text-decoration: none;
+  color: #333;
+  display: block;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  position: relative;
+}
+
+.polaroid img {
+  width: 100%;
+  display: block;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.polaroid__placeholder {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background: #e0d6c8;
+}
+
+.polaroid__caption {
+  display: block;
+  text-align: center;
+  margin-top: 0.6rem;
+  font-size: 0.9rem;
+  color: #444;
+}
+
+/* Scattered rotations */
+.polaroid--r0 { transform: rotate(-3deg); }
+.polaroid--r1 { transform: rotate(1.8deg); }
+.polaroid--r2 { transform: rotate(-1.2deg); }
+.polaroid--r3 { transform: rotate(2.5deg); }
+.polaroid--r4 { transform: rotate(-2deg); }
+
+/* Hover: straighten and lift */
+.polaroid:hover,
+.polaroid:focus {
+  transform: rotate(0deg) scale(1.05);
+  box-shadow: 4px 6px 16px rgba(0,0,0,0.3);
+  z-index: 1;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .corkboard {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 1.5rem;
+  }
+}
