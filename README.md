@@ -17,3 +17,13 @@ Then open `http://localhost:1313` in your browser.
 ```bash
 hugo
 ```
+
+## Adding a new entry
+
+Run the following command:
+
+```bash
+hugo new --kind memory content/en/{insert_new_name}/index.md
+```
+
+Update the template article that was created, and insert the relevant jpg into the same directory that was just created.
