@@ -4,7 +4,7 @@ draft: false
 tags: [dogs]
 ---
 
-![Banjo adolescente](teenbanjo.jpg)
+![Banjo adolescente](teenbanjo.png)
 
 Banjo tenía las patas más grandes para su tamaño cuando era adolescente. ¡También parecía que caminaba sobre zancos por lo largas que eran sus patas!
 

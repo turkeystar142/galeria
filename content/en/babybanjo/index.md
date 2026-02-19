@@ -4,7 +4,7 @@ draft: false
 tags: [dogs]
 ---
 
-![Teenage Banjo](teenbanjo.jpg)
+![Teenage Banjo](teenbanjo.png)
 
 Banjo had the biggest paws for his size as a teenager. He looked like he walked on stilts from how long his legs were, too!
 
