@@ -1,6 +1,5 @@
 ---
-title: "Fostering Lucky the Dog"
-date: 2026-02-16
+title: "Lucky the Dog"
 draft: false
 tags: [dogs]
 ---
@@ -9,4 +8,4 @@ tags: [dogs]
 
 There was a dog that approached Luna and I once on a walk. He was so friendly that I thought he was a lost dog, so I let him into my home as I tried to find his owner. Turns out, he was just a stray that needed medical attention. I took him in for a few months until he got strong enough to be adopted by his forever-mom. Luna took such good care of Lucky, as if he were her little brother.
 
-Article of interest: [Foster Dog Care Manual](https://bestfriends.org/network/resources-tools/dog-foster-care-manual)
+[Foster Dog Care Manual](https://bestfriends.org/network/resources-tools/dog-foster-care-manual)

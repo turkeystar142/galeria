@@ -1,6 +1,5 @@
 ---
 title: "Acogiendo a Lucky el Perro"
-date: 2026-02-16
 draft: false
 tags: [dogs]
 ---
