@@ -27,3 +27,5 @@ hugo new --kind memory content/en/{insert_new_name}/index.md
 ```
 
 Update the template article that was created, and insert the relevant jpg into the same directory that was just created.
+
+Create the same article in spanish within `content/es/{insert_new_name}`
